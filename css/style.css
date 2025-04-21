@@ -15,6 +15,14 @@ Bootstrap Variables Override
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 
+body{
+  background-color: #0A58CA;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 /********************************
 Global Styles and UI Components
 **********************************/
@@ -164,10 +172,10 @@ Page-Specific
   justify-content: center;
 }
 
-#about-me {
+.about-me {
   /* Optional: Add a background image for the hero section */
-  background: url(../images/bg-1.png);
-
+ padding-top: 2em;
+ padding-bottom: 4em;
   /* Optional: Make the image cover the entire section */
   background-size: cover;
 
@@ -228,4 +236,12 @@ input[type="text"] {
   .inputWithIcon.inputIconBg input[type="text"]:focus + i {
     color: #fff;
     background-color: dodgerBlue;
+  }
+  .projects{
+    background-color: #6EA8FE;
+  padding: 4em 0;
+  }
+
+  .contact-me h2{
+    color: #fff;
   }
