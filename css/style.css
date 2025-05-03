@@ -18,7 +18,8 @@ Bootstrap Variables Override
 body{
   background-color: #0A58CA;
 }
-img{
+
+img, video{
   max-width: 100%;
   height: auto;
 }
@@ -183,9 +184,10 @@ Page-Specific
   color: var(--bs-white);
 }
 
-#projects a {
-  /* Optional: Remove underline on project card links */
-  text-decoration: none;
+.projects {
+  
+  width: 100%;
+  margin:0 auto;
 }
 
 
@@ -245,3 +247,5 @@ input[type="text"] {
   .contact-me h2{
     color: #fff;
   }
+
+  
